@@ -1,0 +1,39 @@
+*,*::after, *::before{
+    box-sizing: border-box;
+}
+
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+p,a,h1,h2,h3,li, span {
+    font-family: 'Open Snas', sans-serif;
+}
+
+.container{
+    grid-template-rows: ;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: repeat(4);
+}
+
+.container .box-1{
+background-color: brown;
+grid-column: 4 by 1;
+}
+
+.container .box-2{
+grid-column: 3 by 1;
+background-color: orange;
+}
+
+.container .box-3{
+grid-column: 2 by 1;
+background-color:rgb(49, 49, 47) ;
+}
+
+.container .box-4{
+grid-column: 1 by 1;
+background-color: black;
+}
